@@ -8,6 +8,7 @@ public abstract class Conta implements IConta {
 	protected int numero;
 	protected double saldo;
 	protected Cliente cliente;
+	//protected TipoConta tipoConta;
 
 	public Conta(Cliente cliente) {
 		this.agencia = Conta.AGENCIA_PADRAO;
